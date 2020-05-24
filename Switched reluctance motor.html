@@ -1,0 +1,90 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<h1>SWITCHED RELUCTANCE MOTOR</h1>
+<h2>SWITCHED RELUCTANCE MOTOR</h2>
+<body>
+<style>
+body{
+   background-image:url('6.jpg');
+   background-repeat:no-repeat;
+   background-attachment:fixed;
+   background-size:cover;
+   color:white;
+   font-size:25px;
+}
+h2{
+  width: 300px;
+  height: 75px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:440px; top:0px;}
+  50%  {background-color:blue; left:440px; top:250px;}
+  75%  {background-color:green; left:0px; top:250px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+h1{
+  text-align:center;
+  animation-name: example1;
+  animation-duration: 1s;
+  margin-top:4px;
+  color:red;
+}
+@keyframes example1{
+  0%   {margin-top: 700px;}
+  25%  {margin-bottom: 20px;}
+  50%  {margin-top: 100px;}
+  100% {margin-bottom: 70px;}
+}
+</style>
+<p>Switched reluctance motor works based on the variable reluctance principle. The rotating magnetic field is created with the help of power electronics switching circuit.The main concept is the reluctance of the magnetic circuit is depending upon the air gap. Hence, by changing the air gap between the rotor and stator, we can change the reluctance of the motor.<p>
+<h3>CONSTRUCTION:</h3>
+<p>In switched reluctance motor, the stator and rotor have projected pole made up of soft iron and silicon stampings. Silicon stamping is used to reduce hysteresis losses.<br>
+<p style='text-align:center;'>1)Stator => Inward projection<br>2)Rotor => Outward projection<br></p>
+The rotor does not have winding and stator only carries main field winding. Each winding in the stator is connected in series with the opposite poles to increase the MMF of the circuit. It is called phase winding Shown in fig, AA’, BB’ and CC’.Pole concern, the number of poles in the stator will be around 6 to 8 numbers. But the rotor carries less number of poles with respect to the stator. The rotor poles will be 4 to 8 numbers.
+By increasing the number of poles we can get a low angle of rotation from the motor. The rotor’s shaft is mounted with a position sensor. The position sensor is used to determine the position of the rotor by a control circuit.The control circuit always collects the information of the rotor position and based on that the controller gives the input to the motor.<p>
+<h3>WORKING PRINCIPLE:</h3>
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<img src="7.jpg" style="width:40%; height:75%">
+<p>The working principle of switched reluctance motor is simple, let we take an iron piece. If we keep it in a magnetic field means, the iron piece will align with the minimum reluctance position and get locked magnetically.The same principle is followed in the switched reluctance motor. The minimum reluctance portion of the rotor tries to align itself with the stator magnetic field. Hence the reluctance torque is developed in the rotor.Hence the motor starts rotating due to the torque developed.</p>
+<h3>TYPES OF SWITCHED RELUCTANCE MOTOR:</h3>
+<p>Based on the construction the SRM is divided into two categories. One is linear SRM and another one is rotary SRM.<br>1)Linear SRM: Single-step Stator and rotor<br>2)Rotary SRM: More than one step stator and rotor<p>
+<h3>ADVANTAGES:</h3>
+<ul>
+      <li>It does not require an external ventilation system as the stator and rotor slots projected. The airflow maintained between the slots.</li>
+      <li>The rotor does not have winding since therefore no need keeps the carbon brush and slip ring assembly.</li>
+      <li>Since the absence of permanent magnet, such motors are available at a cheaper price.</li>
+      <li>Simple three or two-phase pulse generator is enough to drive the motor.</li>
+      <li>The direction of the motor can be reversed by changing the phase sequence.</li>
+      <li>Self-starting and does not require external arrangements.</li>
+      <li>Starting torque can be very high without excessive inrush currents.</li>
+      <li>High Fault Tolerance</li>
+      <li>Phase losses do not affect motor operations.</li>
+      <li>High torque/inertia ratio.</li>
+      <li>High starting torque can be achieved.</li>
+</ul>
+<h3>DISADVANTAGES:</h3>
+<ul>
+      <li>Creates Torque ripple at high-speed operation.</li>
+      <li>The external rotor position sensor is required.</li>
+      <li>Noise level is high</li>
+      <li>At a higher speed, the motor generates harmonics, to reduce this, we need to install larger size capacitors.</li>
+      <li>Since there is an absence of Permanent Magnet, the motor has to designed to carry high input current. It increases the converter KVA requirement.</li>
+</ul>
+<h3>APPLICATIONS:</h3>
+<p>Domestic appliances such as washing machines, vacuum cleaners, fans etc.</p>
+</body>
+</html>

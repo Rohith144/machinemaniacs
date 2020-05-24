@@ -1,0 +1,99 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<h1>BRUSHLESS DC MOTOR</h1>
+<h2>BRUSHLESS DC MOTOR</h2>
+<body>
+<style>
+body{
+   background-image:url('2.jpg');
+   background-repeat:no-repeat;
+   background-attachment:fixed;
+   background-size:cover;
+   font-size:25px;
+}
+h2{
+  width: 300px;
+  height:100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:440px; top:0px;}
+  50%  {background-color:blue; left:440px; top:250px;}
+  75%  {background-color:green; left:0px; top:250px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+h1{
+  text-align:center;
+  animation-name: example1;
+  animation-duration: 1s;
+  margin-top:4px;
+  color:red;
+}
+@keyframes example1{
+  0%   {margin-top: 700px;}
+  25%  {margin-bottom: 20px;}
+  50%  {margin-top: 100px;}
+  100% {margin-bottom: 70px;}
+}}
+</style>
+<p>
+A Brushless DC motor (known as BLDC) is a permanent magnet synchronous electric motor which is driven by direct current(DC) and it accomplishes electroniclly controlled commutation system (commutation is the process of producing rotational torque in the motor by changing phase currents through it at appropriate times) instead of a mechanically coommutation system.BLDC motors are also referred as trapezoidal permanent magnet motors.Unlike conventional brushed type DC motors,wherein the brushes make the mechanical contact with commutator on the rotor so as to form an electric path between a DC electric source and rotor armature windings,BLDC motor employs electric commutation with permanent magnet rotor and a stator with a sequence of coils.In the motor,permanent magnet (or field poles) rotates and current carrying conductors are fixed.The armature coils are switched electronically by transistors or silicon controlled rectifiers at the correct rotor position in such a way that armature field is in space quadrature with the rotor field poles.Hence the fprce acting on the rotor causes it to rotate.<b>Hall sensors </b>or rotary encoders are most commonly used to sense the position of the rotor and are positioned around the stators.The rotor position feedback from the sensor helps to determine when to switch the armature current.This electronic communication arrangement eliminates the commutator arrangement and brushes in a DC motor and hence more reliable and less noisy operation is achieved.Due to the absence of brushes VLDC motors are capable to run at high speed.The efficiency of VLDC motors is typically <b>85 to 90%</b>whereas as brushed type DC motors are <b>75 to 80%</b> efficient.There are wide varities of Brushless DC motors available ranging from<b> small power range to fractional horse power,integral horse power and large power ranges.</b>
+<h3><b>CONSTRUCTION OF BLDC MOTOR:</b></h3>
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<img src="3.jpg" style="width:50%; height:70%">
+<p>BLDC motors can be constructed in differnet physical configurations.depending on the stator windings,these can be configured as single-phase,two phase,or three-phase motors.However,three phase BLDC motors with permanent magnet rotor are most commonly used.The construction of this motor has similarities of three phase induction motor as well as conventional DC motor.This motor has stator and rotor parts as like all other motors.</p>
+<dl>
+      <dt><b>STATOR:</b></dt><br>
+     <dd>-Stator of a BLDC motor made up of stacked steel laminations to carry the windings. These windings are placed in slots which are axially cut along the inner periphery of the stator. These windings can be arranged in either star or delta. However, most BLDC motors have three phase star connected stator.Each winding is constructed with numerous interconnected coils, where one or more coils are placed in each slot. In order to form an even number of poles, each of these windings is distributed over the stator periphery.The stator must be chosen with the correct rating of the voltage depending on the power supply capability. For robotics, automotive and small actuating applications, 48 V or less voltage BLDC motors are preferred. For industrial applications and automation systems, 100 V or higher rating motors are used.</dd><br>
+     <dt><b>ROTOR:</b></dt><br>
+     <dd>-BLDC motor incorporates a permanent magnet in the rotor. The number of poles in the rotor can vary from 2 to 8 pole pairs with alternate south and north poles depending on the application requirement. In order to achieve maximum torque in the motor, the flux density of the material should be high. A proper magnetic material for the rotor is needed to produce required magnetic field density.Ferrite magnets are inexpensive, however they have a low flux density for a given volume. Rare earth alloy magnets are commonly used for new designs. Some of these alloys are Samarium Cobalt (SmCo), Neodymium (Nd), and Ferrite and Boron (NdFeB). The rotor can be constructed with different core configurations such as the circular core with permanent magnet on the periphery, circular core with rectangular magnets, etc.</dd><br>
+      <dt><b>HALL SENSORS:</b></dt><br>
+      <dd>-Hall sensor provides the information to synchronize stator armature excitation with rotor position. Since the commutation of BLDC motor is controlled electronically, the stator windings should be energized in sequence in order to rotate the motor. Before energizing a particular stator winding, acknowledgment of rotor position is necessary. So the Hall Effect sensor embedded in stator senses the rotor position.
+Most BLDC motors incorporate three Hall sensors which are embedded into the stator. Each sensor generates Low and High signals whenever the rotor poles pass near to it. The exact commutation sequence to the stator winding can be determined based on the combination of these three sensor’s response.</dd><br>
+      <dt><b>WORKING PRINCIPLE OF BLDC:</b></dt><br>
+      <dd>-BLDC motor works on the principle similar to that of a conventional DC motor, i.e., the Lorentz force law which states that whenever a current carrying conductor placed in a magnetic field it experiences a force. As a consequence of reaction force, the magnet will experience an equal and opposite force. In case BLDC motor, the current carrying conductor is stationary while the permanent magnet moves.When the stator coils are electrically switched by a supply source, it becomes electromagnet and starts producing the uniform field in the air gap. Though the source of supply is DC, switching makes to generate an AC voltage waveform with trapezoidal shape. Due to the force of interaction between electromagnet stator and permanent magnet rotor, the rotor continues to rotate.</dd><br>
+</dl>
+<h3>ADVANTAGES:</h3>
+<ul>
+      <li>It has no mechanical commutator and associated problems</li>
+      <li>High efficiency due to the use of permanent magnet rotor</li>
+      <li>High speed of operation even in loaded and unloaded conditions due to the absence of brushes that limits the speed</li>
+      <li>Smaller motor geometry and lighter in weight than both brushed type DC and induction AC motors</li>
+      <li>Long life as no inspection and maintenance is required for commutator system</li>
+      <li>Higher dynamic response due to low inertia and carrying windings in the stator</li>
+      <li>Less electromagnetic interference</li>
+      <li>Quite operation (or low noise) due to absence of brushes</li>
+</ul>
+<h3>DISADVANTAGES:</h3>
+<ul>
+      <li>These motors are costly</li>
+      <li>Electronic controller required control this motor is expensive</li>
+      <li>Not much availability of many integrated electronic control solutions, especially for tiny BLDC motors</li>
+      <li>Requires complex drive circuitry</li>
+      <li>Need of additional sensors</li>
+</ul>
+<h3>APPLICATIONS:</h3>
+<p>
+     Brushless DC Motors (BLDC) are used for a wide variety of application requirements such as varying loads, constant loads and positioning applications in the fields of industrial control, automotive, aviation, automation systems, health care equipments, etc. Some specific applications of BLDC motors are<p>
+<ul>
+      <li>Computer hard drives and DVD/CD players</li>
+      <li>Electric vehicles, hybrid vehicles, and electric bicycles</li>
+      <li>Industrial robots, CNC machine tools, and simple belt driven systems</li>
+      <li>Washing machines, compressors and dryers</li>
+      <li>Fans, pumps and blowers</li>
+</ul>
+</body>
+</html>

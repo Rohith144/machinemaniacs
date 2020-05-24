@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Form2</title>
+<style>
+body{
+   background-color:DodgerBlue;
+}
+input[type=text], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form{
+   text-align:center;
+}
+input[type=submit] {
+  width: 10%;
+  padding: 14px 20px;
+  
+}
+</style>
+</head>
+<body>
+<div class = "form">
+<form action="/action_page.php">
+  <h5 style = "color:lightblue; font-size:25px">Name:</h5><br>
+  <input type="text" id="name" class = "form-control" name="name"><br>
+  <h5 style = "color:lightblue; font-size:25px">Phone Number:</h5><br>
+  <input type="text" id="phoneno" class = "form-control" name="phoneno"><br>
+  <h5 style = "color:lightblue; font-size:25px">Address:</h5><br>
+  <input type="text" id="address" class = "form-control" name="address" style = "height:200px"><br>
+  <input type="submit" onclick="alert('You will receive exciting prizes')" value = "Submit">
+</form>
+</div>
+</body>
+</html>

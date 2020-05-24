@@ -1,0 +1,49 @@
+<html>
+<h1>SPECIAL</h1>
+<h1>MACHINES</h1>
+<meta name='viewport'  content='width=device-width,initial-scale=1.0'>
+<style>
+h1{
+   text-align:center;
+   color:white;
+}
+ol{
+   text-align:center;
+}
+body{
+   background-image:url('1.jpg');
+   background-repeat:no-repeat;
+   background-attachment:fixed;
+   background-size:cover;
+   background-color:black;
+   font-size:25px;
+   color:white;
+}
+h1{
+  width: 400px;
+  height: 40px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:350px; top:0px;}
+  50%  {background-color:blue; left:350px; top:250px;}
+  75%  {background-color:green; left:0px; top:250px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+</style>
+<body>
+<p>
+Some of the special motors are given below.Click on the particular motor to know about the details of it.</p>
+<ol class='text-center' style='list-style-position:inside' text-align:center;>
+    <li><a href="Brushless DC motor.html">Brushless DC motor</a></li>
+    <li><a href="Stepper motor.html">Stepper motor</a></li>
+    <li><a href="Switched reluctance motor.html">Switched reluctance motor</a></li>
+</ol>
+</body>
+</html>
